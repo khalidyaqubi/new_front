@@ -1,0 +1,407 @@
+<!--****----******-------------------- start first layout header ------------*********------********* -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>مركز العمل التنموي معا</title>
+    <link rel="shortcut icon" href="../dist/Group.ico" />
+    <meta name="csrf-token" content="crsf">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../dist/platform/css/jquerysctipttop.css">
+    <link rel="stylesheet" type="text/css" href="../dist/platform/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../dist/platform/css/bootstrap-rtl.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/gijgo/1.9.13/combined/css/gijgo.min.css" rel="stylesheet"
+          type="text/css"/>
+
+    <style media="screen">
+        body{
+            max-width: 100%;
+        }
+        .container {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        .input-group-prepen {
+            background: #c4233d;
+        }
+
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        h1 {
+            color: #c4233d;
+            margin-top: 150px;
+            font-weight: bold;
+            text-shadow: 0 0 10px white, 0 0 10px white;
+        }
+
+        label {
+            color: white;
+        }
+
+        .navbar {
+            height: 82px;
+            background: rgba(0, 0, 0, .8);
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: white;
+        }
+
+        .navbar-light .navbar-nav .nav-link:hover,
+        .navbar-light .navbar-nav .nav-link:active {
+            color: #c4233d;
+        }
+
+        .navbar-light .navbar-nav .active > .nav-link, h5 {
+            color: white;
+
+        }
+
+        h1 {
+            margin-top: 65px;
+        }
+
+
+        .validation {
+            padding: 10px;
+            height: auto;
+            width: 94%;
+            margin-right: 10px;
+            margin-top: 10px;
+            direction: rtl;
+            text-align: right;
+        }
+
+        #myModal {
+            padding-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .card {
+            height: auto;
+        }
+    </style>
+
+    <!--****----******-------------------- start privet header ------------*********------********* -->
+
+
+    <style>
+        input[type="radio"] {
+            margin-right: -35px;
+            height: 25px;
+        }
+        img {
+            margin-top : 0 !important;
+
+        }
+
+        .card {
+            background: white !important;
+            border-radius: 20px;
+            width: 700px;
+            height: 590px;
+        }
+
+        .input-group-prepend span {
+            width: 165px;
+        }
+
+        .input-group-prepend span {
+            color: white;
+        }
+
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        body {
+            background-image: url('../dist/platform/dist/images/euro.jpg');
+        }
+
+        .fas {
+            font-size: 30px;
+        }
+
+        .card {
+            height: auto;
+        }
+
+        @media (max-width: 670px) {
+            .card {
+                width: 356px;
+            }
+
+            .validation {
+                width: 330px;
+            }
+
+            ::-webkit-input-placeholder {
+                font-size: 7px;
+            }
+        }
+    </style>
+    <!--****----******-------------------- end privet header ------------*********------********* -->
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand" href="/">
+        <div class="media">
+            <img alt="Maan Logo" src="../dist/platform/images/logo.svg" style="width:200px;height:70px;margin-top:-26px;">
+            <div class="media-body">
+                <h5 class=" align-center" style="margin-right:-52px;margin-top:22px">مركز العمل التنموي معا</h5>
+            </div>
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav col-md-11">
+            <li class="nav-item ">
+                <a class="nav-link" href="/">الرئيسية <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/how_are">من نحن </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/initiative">المبادرات</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/category/1">تجارب ملهمة</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/article">جميع الأخبار </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/category">جميع الأقسام </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#contact">تواصل معنا</a>
+            </li>
+                <li class="nav-item dropdown col-md-3">
+                    <a style="max-width: 166px;max-height: 75px;overflow: hidden;width:90%;background:#c4233d;color:white;margin-right:40px;border-radius:20px;"
+                       class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        رامي ليفي
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/activist">البروفايل</a>
+
+                        <a class="dropdown-item" href="/activist/changePassword">تعديل كلمة المرور</a>
+                        <a class="dropdown-item" href="/activist/editProfile">تعديل حساب</a>
+                        <a class="dropdown-item" href="#"
+                           onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">تسجيل خروج </a>
+                    </div>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                          style="display: none;">
+                    </form>
+                </li>
+
+
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <!--****----******-------------------- end first layout header ------------*********------********* -->
+
+
+    <div class="row justify-content-center">
+        <h1>المتبرع</h1>
+    </div>
+    <div class="d-flex justify-content-center h-100">
+        <!--form -->
+        <form method="post" action="/donationList">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="d-flex justify-content-center ">
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        <!--div for validation  -->
+                        <!-------------------ستيلات الفلاديشن موحدة في كل الصفحات valdtion style union on all page----------------->
+                        <div id="myModal"   class="alert alert-danger alert-dismissible validation">
+                            <ul>
+                                <li>يرجى ادخال الايميل</li>
+                            </ul>
+                            <button type="button" data-target="#myModal" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div id="myModal" class="alert alert-info alert-dismissible validation"> تمت الاضافة بنجاح
+                            <button type="button" class="close" data-target="#myModal" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+
+                        <div id="myModal" class="alert alert-info alert-dismissible validation">تمت الاضافة بنجاح
+                            <button type="button" class="close" data-target="#myModal" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <!-------------------ستيلات الفلاديشن موحدة في كل الصفحات valdtion style union on all page----------------->
+                        <div class="card-body">
+                            <!--الحساب البنكي لمعاً  -->
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">الحساب البنكي لمعاً</span>
+                                </div>
+                                <input readonly type="number" class="form-control" value=""
+                                       placeholder=" 7653417865">
+                            </div>
+                            <!-- المبادرة -->
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">المبادرة</span>
+                                </div>
+
+                                <select name="initiative_id" class="form-control">
+                                    <option value="">اختر مبادرة</option>
+                                 </select>
+
+                            </div>
+                            <!--الحساب البنكي للممول  -->
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">الحساب البنكي للمتبرع</span>
+                                </div>
+                                <input required type="number" name="bank_account" value=""
+                                       class="form-control"
+                                       placeholder="أدخل رقم الحساب البنكي الخاص بك">
+                            </div>
+                            <!--اسم الممول  -->
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">اسم المتبرع</span>
+                                </div>
+                                <input required type="text" name="financier_name" value=""
+                                       class="form-control" placeholder="أدخل اسمك كاملاً">
+                            </div>
+                            <!--  المبلغ-->
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">المبلغ</span>
+                                </div>
+                                <input required type="number" name="amount" value=""
+                                       class="form-control"
+                                       placeholder="أدخل المبلغ الذي تود التبرع به لصالح المبادرة ">
+                                <span class="input-group-text">$ المبلغ بالدولار</span>
+                            </div>
+                            <!-- الايميل -->
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">الإيميل</span>
+                                </div>
+                                <input required type="email" name="financier_email" value=""
+                                       class="form-control" placeholder="أدخل إيميلك ">
+                            </div>
+                            <!--  رقم للتواصل-->
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">رقم للتواصل</span>
+                                </div>
+                                <input required type="number" name="financier_phone" value=""
+                                       class="form-control"
+                                       placeholder="أدخل رقم للتواصل معك من خلاله">
+                            </div>
+                            <!--  الدولة-->
+                            <div class="input-group form-group ">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">الدولة</span>
+                                </div>
+                                <input name="country" list="mylist" class="form-control" placeholder="اختر الدولة">
+                                <datalist id="mylist">
+                                    <option value="">
+                                        اختر دولة
+                                    </option>
+                                </datalist>
+
+                            </div>
+                            <!--  العنوان-->
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">العنوان</span>
+                                </div>
+                                <input required type="text" value=""
+                                       name="financier_address" class="form-control" placeholder="أدخل عنوانك كاملاً">
+                            </div>
+                            <!--زر تأكيد -->
+                            <div class=" form-group" style="margin-top:50px;">
+                                <div class="row justify-content-center">
+                                    <div class="col-xs-7 col-md-4 ">
+                                        <button type="submit"
+                                                style="background:#c4233d;text-decoration:none;color:white;padding:20px;padding-left:40px;padding-right:40px;border-radius:20px;">
+                                            تأكيد
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!--****----******-------------------- satrt first layout footer ------------*********------********* -->
+</div>
+<footer>
+    <div class="copyRight" style="background:black;opacity:.8;margin-top:50px;height:70px;padding-top:20px">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p style="color:white;text-align:center;">جميع الحقوق محفوظة لمركز العمل التنموي - معا © 2019 ||
+                        <a href="http://www.alhamsco.com" target="_blank" alt="الهمص للتكنولوجيا والتدريب"><img
+                                    src="../dist/platform/images/7777.png"
+                                    style="width:30px;height:30px;margin-right:5px;margin-left:5px;margin-top:-10px;"></a>POWERED
+                        BY
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gijgo/1.9.13/combined/js/gijgo.min.js"
+        type="text/javascript"></script>
+
+
+<script>
+    $('#datepicker').datepicker({uiLibrary: 'bootstrap4', iconsLibrary: 'materialicons', format: 'yyyy-mm-dd'});
+</script>
+<script>
+
+    $("#myModal .close").click(function () {
+        $("#myModal").hide();
+    });
+</script>
+
+<!--****----******-------------------- start privet footer ------------*********------********* -->
+
+
+<!--****----******-------------------- end privet footer ------------*********------********* -->
+
+<script type="text/javascript" src="../dist/js/app.js"></script>
+</body>
+</html>
+
+<!--****----******-------------------- end first layout footer ------------*********------********* -->

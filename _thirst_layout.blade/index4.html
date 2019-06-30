@@ -1,0 +1,435 @@
+<!--******************************************* start thirst layout headr ***************************  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content=""/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" href="../dist/Group.ico"/>
+    <meta name="keywords" content=""/>
+    <title>مركز العمل التنموي معاً</title>
+    <link rel="stylesheet" href="../dist/platform/sections/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dist/platform/sections/css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="../dist/platform/sections/css/animate.min.css">
+    <link rel="stylesheet" href="../dist/platform/sections/css/nprogress.css">
+    <link rel="stylesheet" href="../dist/platform/sections/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/platform/sections/css/responsive.css">
+    <style media="screen">
+        body,
+        h3,
+        h2,
+        h6,
+        p {
+            font-family: 'El Messiri', sans-serif;
+
+        }
+
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+        }
+
+        .validation {
+            padding: 10px;
+            height: auto;
+            width: 94%;
+            margin-right: 10px;
+            margin-top: 10px;
+            direction: rtl;
+            text-align: right;
+        }
+
+        .cause-meta > h2 a {
+            margin-right: 30px;
+        }
+
+        h1 {
+            margin: 25px;
+        }
+
+
+        body {
+            background: #F0F0F0;
+        }
+
+
+        input[type=text] {
+            width: 350px;
+            border-radius: 20px;
+            padding: 5px;
+            margin-bottom: 10px;
+            height: 50px;
+
+        }
+
+        input[type=date] {
+            width: 170px;
+            border-radius: 20px;
+            padding: 5px;
+            margin-bottom: 10px;
+            height: 50px;
+        }
+
+
+        @media (min-width: 768px) {
+            .navbar-nav {
+                float: left;
+            }
+        }
+
+        .navbar {
+            background: black;
+            height: 100px;
+        }
+
+        .gap {
+            margin-top: -50px;
+        }
+
+        .nav-link {
+            margin: 10px;
+            color: white;
+        }
+
+        .nav-link:hover {
+            color: #c4233d;
+            border-bottom: 1px solid #c4233d;
+        }
+
+        h2 {
+            margin-right: 130px;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        .cause-meta > h2 a {
+            margin-right: 54px;
+        }
+
+        @media (min-width: 768px) {
+            .navbar-nav {
+                margin: 37px;
+            }
+        }
+    </style>
+    <!--******************************************* starte private header ***************************  -->
+    <style>
+
+        .form-control {
+            height: 50px;
+            border-radius: 20px;
+            padding: 5px;
+            margin-bottom: 15px;
+            background: white;
+        }
+
+        .col-md-2 {
+            width: 21.666667%;
+        }
+
+        .butn {
+            width: 100px;
+            height: 50px;
+            border-radius: 20px
+        }
+
+        .pag {
+            font-size: 20px;
+        }
+
+        .gj-datepicker-bootstrap [role=left-icon] button {
+            margin-right: 100px;
+            float: left;
+            width: 54px;
+        }
+
+        #datepickerrr,
+        #datepickerr,
+        #datepicker {
+            border-radius: 20px;
+        }
+
+        .caro-unit {
+            border: 1px solid gray;
+            border-radius: 20px;
+        }
+
+        .donate-me {
+            float: left;
+            background: #c4233d;
+            border-radius: 20px;
+        }
+
+        .required-amount {
+            padding: 15px 30px;
+            background: #c4233d;
+            float: left;
+
+        }
+
+        .required-amount::before {
+            display: none;
+        }
+
+        #output {
+            padding: 20px;
+            background: #dadada;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        select {
+            width: 300px;
+        }
+
+        .btn {
+            height: 52px;
+            margin-right: 217px;
+            margin-top: -72px;
+            position: absolute;
+            z-index: 2000;
+            border-radius: 20px;
+            padding: 3px;
+
+        }
+
+
+        .sho {
+            border-radius: 20px;
+            height: 50px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css"/>
+    <!--******************************************* end private header ***************************  -->
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">
+        <img alt="Maan Logo" src="../dist/platform/images/logo.svg" style="width:92px;height:60px;float:right">
+
+        <p style="text-align: right;font-size: 19px;margin: 13px 104px 12px 2px;color: #FFF">مركز العمل التنموي معا</p>
+        <!-- <p style="margin-top: -10px;font-size: 16px;text-align:right;text-shadow: 0 0 10px white, 0 0 5px white;">مركز العمل التنموي / معا</p> -->
+        </div>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="/"> الرئيسية<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="/how_are">من نحن</a>
+            <a class="nav-item nav-link" href="/initiative">المبادرات</a>
+            <a class="nav-item nav-link" href="/category/1">تجارب ملهمة</a>
+            <a class="nav-item nav-link" href="/article">جميع الأخبار</a>
+            <a class="nav-item nav-link" href="/#contact">تواصل معنا</a>
+
+                <a style="margin-right: 5px;border:1px solid #c4233d;background:#f3f3f2;padding:15px;margin-top:12px;margin-left:5px;border-radius:20px;color:black"
+                   class="" href="/home">بروفايل  رامي</a>
+
+        </div>
+    </div>
+</nav>
+<div class="site-layout">
+    <section>
+        <div class="gap">
+            <div class="container">
+                <!--******************************************* end thirst layout headr ***************************  -->
+
+                <div class="row justify-content-center" >
+        <div class="col text-center" >
+            <h1 style="margin-top: 0px">عرض المبادرات </h1>
+        </div>
+    </div>
+
+    <form>
+        <!-- 1 -->
+        <div class="container ">
+            <div class="row  ">
+                <div class="col-md-6 ">
+                    <input type="text" class="form-control" name="q" value=""
+                           placeholder="ابحث في العنوان أو اسم المنشط أو اسم الفريق" style="width: 100%"
+                    >
+                </div>
+                <div class="col-md-3 ">
+                    <select class="form-control" name="governorate_id">
+                        <option value="">جميع المحافظات</option>
+                     </select>
+                </div>
+                <div class="col-md-3 ">
+                    <select class="form-control" name="city_id">
+
+                    </select>
+                </div>
+                <div class="col-md-3" style="margin-left:7px;">
+                    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+                    <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+                    <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+                    <select data-placeholder="اختر اهتماماتك من القائمة" multiple class="chosen-select sho"
+                            name="interests_ids[]">
+                     </select>
+                    <script type="text/javascript">
+                        $(".chosen-select").chosen({
+                            no_results_text: "Oops, nothing found!"
+                        })
+                    </script>
+                </div>
+
+
+                <div class="col-md-3" style="margin-bottom:0px">
+                    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+                    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css"/>
+                    <input id="datepickerrr" name="in_date" value="" placeholder="تاريخ العمل">
+                    <script>
+                        $('#datepickerrr').datepicker({
+                            uiLibrary: 'bootstrap4', iconsLibrary: 'materialicons', format: 'yyyy-mm-dd'
+                        });
+                    </script>
+                </div>
+                <div class="col-md-3" style="margin-bottom:0px">
+                    <input id="datepickerr" name="start_date" value=""
+                           placeholder="تاريخ البدء/ من">
+                    <script>
+                        $('#datepickerr').datepicker({
+                            uiLibrary: 'bootstrap4', iconsLibrary: 'materialicons', format: 'yyyy-mm-dd'
+                        });
+                    </script>
+                </div>
+                <div class="col-md-2" style="margin-bottom:0px">
+                    <input id="datepicker" name="end_date" value=""
+                           placeholder="تاريخ الانتهاء/ إلى">
+                    <script>
+                        $('#datepicker').datepicker({
+                            uiLibrary: 'bootstrap4', iconsLibrary: 'materialicons', format: 'yyyy-mm-dd'
+                        });
+                    </script>
+                </div>
+
+                <div class="cl-md-3" style="margin-bottom:10px">
+                    <button type="submit" name="button" class="butn">بحث</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="container">
+        <div class="row " style="min-height: 190px">
+            <div class="our-cause remove-ext-50 loader-data" id="itemContainer">
+                <div class="col-sm-4">
+                        <div class="caro-unit fadein">
+                            <div class="cause-avatar">
+                                <a href="/initiative/1" title=""><img src="1" alt=""></a>
+                                <div class="required-amount">
+                                    <span>18-2-2002</span>
+                                </div>
+                            </div>
+                            <div class="cause-meta">
+
+                                <h2 style="height:72px;min-height:72px;max-height: 72px;"><a href="/initiative/1" title="">مركز العمل التنموي معا</a></h2>
+                                <p style="min-height: 82px">
+                                    مبادرة نوعية مبادرة نوعية....
+                                </p>
+                                <a href="/initiative/1" title="" class="donate-me" data-ripple="">تفاصيل
+                                    المبادرة</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- pagination div -->
+        <div class="row  " style="margin-top:50px;">
+            <div class="col-sm-5"></div>
+            <div class="col-sm-4">
+
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+
+                <!--******************************************* starte thirst layout footer ***************************  -->
+            </div>
+        </div>
+    </section>
+</div>
+<footer>
+    <div class="copyRight" style="background:black;opacity:.8;height:55px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p style="color:white;text-align:center;padding-top:20px;">جميع الحقوق محفوظة لمركز العمل التنموي -
+                        معا © 2019 ||
+                        <a href="http://www.alhamsco.com" target="_blank" alt="الهمص للتكنولوجيا والتدريب"><img
+                                    src="../dist/platform/images/7777.png"
+                                    style="width:30px;height:30px;margin-right:5px;margin-left:5px;margin-top:-10px;"></a>POWERED
+                        BY
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="modal fade" id="Confirm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">تأكيد</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                هل أنت متأكد من الاستمرار في العملية
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary"
+                        data-dismiss="modal">إلغاء
+                </button>
+                <a href="#" class="btn btn-danger">نعم، متأكد</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="../dist/platform/sections/js/nprogress.js"></script>
+<script src="../dist/platform/sections/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+
+    $("#myModal .close").click(function () {
+        $("#myModal").hide();
+    });
+</script>
+
+
+<!--******************************************* start private footer ***************************  -->
+
+<link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+
+
+<script>
+    document.querySelector('.chosen-choices').classList.add('form-control');
+    document.querySelector('.chosen-choices').style.height = "45px";
+    document.querySelector('.chosen-drop').style.zIndex = "555555555";
+    for (i = 0; i < document.querySelectorAll('.gj-datepicker-bootstrap [role=right-icon] button').length; i++) {
+        document.querySelectorAll('.gj-datepicker-bootstrap [role=right-icon] button')[i].style.width = "54px";
+
+    }
+    for (i = 0; i < document.querySelectorAll('.gj-icon').length; i++) {
+        document.querySelectorAll('.gj-icon')[i].style.fontSize = "33px";
+
+    }
+
+</script>
+<!--******************************************* end private footer ***************************  -->
+<script type="text/javascript" src="../dist/js/app.js"></script>
+</body>
+
+</html>
+<!--******************************************* end thirst layout footer ***************************  -->
