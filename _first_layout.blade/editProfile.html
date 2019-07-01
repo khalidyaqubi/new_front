@@ -182,12 +182,8 @@
                         <a class="dropdown-item" href="/activist/changePassword">تعديل كلمة المرور</a>
                         <a class="dropdown-item" href="/activist/editProfile">تعديل حساب</a>
                         <a class="dropdown-item" href="#"
-                           onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">تسجيل خروج </a>
+                           onclick="">تسجيل خروج </a>
                     </div>
-                    <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                          style="display: none;">
-                    </form>
                 </li>
 
         </ul>

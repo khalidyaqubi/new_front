@@ -424,63 +424,6 @@
 <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
 
 <script>
-    $(document).ready(function () {
-
-        var governorate_id = $("[name='governorate_id']").val();
-
-        $.get("/admin/governorate/ajaxCityInGover/" + governorate_id, function (data, status) {
-            $("[name='city_id']")
-                .find('option')
-                .remove()
-                .end()
-                .append('<option class="cities" value="">جميع المدن</option>');
-
-            data.forEach(function (car) {
-                var iselected = checktruefalse(car.id);
-                $("[name='city_id']")
-                    .append($("<option class='cities'></option>")
-                        .attr("value", car.id)
-                        .text(car.name));
-
-                $('.cities[value=' + car.id + ']')
-                    .attr('selected', iselected);
-
-            });
-        });
-    });
-
-    $("[name='governorate_id']").change(function () {
-        var governorate_id = $("[name='governorate_id']").val();
-        $.get("/admin/governorate/ajaxCityInGover/" + governorate_id, function (data, status) {
-            $("[name='city_id']")
-                .find('option')
-                .remove()
-                .end()
-                .append('<option class="cities" value="">جميع المدن</option>');
-
-            data.forEach(function (car) {
-                var iselected = checktruefalse(car.id);
-                $("[name='city_id']")
-                    .append($("<option class='cities'></option>")
-                        .attr("value", car.id)
-                        .text(car.name));
-                $('.cities[value=' + car.id + ']')
-                    .attr('selected', iselected);
-
-            });
-
-        });
-    });
-
-    function checktruefalse(id) {
-        if (id == '{{$city_id}}') {
-            return true
-        } else
-            return false
-    }
-
-</script>
-<script>
     document.querySelector('.chosen-choices').classList.add('form-control');
     document.querySelector('.chosen-choices').style.height = "45px";
     document.querySelector('.chosen-drop').style.zIndex = "555555555";
