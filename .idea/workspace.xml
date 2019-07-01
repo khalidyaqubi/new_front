@@ -1,69 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14b513ac-c77f-41f4-bed3-b4842b40d596" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/bootstrap-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/color.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/dark-green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/developer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/elements.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/gray.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/light-pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/main.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/main_ar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/nice-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/nprogress.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/perfect-scrollbar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/ripple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/silk-accordion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/sweetalert.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/css/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/bideo-main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/bideo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/email-decode.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/greensock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/jPages.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/jquery.counterup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/jquery.scrolly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/jquery.stickit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/layerslider-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/layerslider.kreaturamedia.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/layerslider.transitions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/nice-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/nprogress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/onscreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/perfect-scrollbar.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/perfect-scrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/ripple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/scrolltopcontrol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/platform/sections/js/styleswitcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/private_account" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/private_account/assets/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/private_account/js/jPages.min.js" afterDir="false" />
-    </list>
+    <list default="true" id="14b513ac-c77f-41f4-bed3-b4842b40d596" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +79,9 @@
       </list>
     </option>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="14b513ac-c77f-41f4-bed3-b4842b40d596" name="Default Changelist" comment="" />
@@ -148,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561968872755</updated>
-      <workItem from="1561968875563" duration="310000" />
+      <workItem from="1561968875563" duration="475000" />
     </task>
     <task id="LOCAL-00001" summary="by php storm">
       <created>1561968969379</created>
@@ -168,7 +109,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310000" />
+    <option name="totallyTimeSpent" value="475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
