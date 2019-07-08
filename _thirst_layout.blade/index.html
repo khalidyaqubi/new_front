@@ -425,7 +425,8 @@
 
 <script>
     document.querySelector('.chosen-choices').classList.add('form-control');
-    document.querySelector('.chosen-choices').style.height = "45px";
+     document.querySelector('.chosen-choices').style.height = "45px";
+		document.querySelector('.chosen-choices').style.overflow = "auto";
     document.querySelector('.chosen-drop').style.zIndex = "555555555";
     for (i = 0; i < document.querySelectorAll('.gj-datepicker-bootstrap [role=right-icon] button').length; i++) {
         document.querySelectorAll('.gj-datepicker-bootstrap [role=right-icon] button')[i].style.width = "54px";
