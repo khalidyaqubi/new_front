@@ -92,6 +92,9 @@
         .card {
             height: auto;
         }
+        .fas{
+          color: white;
+        }
     </style>
 <!--******************************************* يرجى وضع المحتوى البرافيت بين الكوممنتين، وتبيزه عن المحتوى اللي اوت هيدر وفتر موحد ***************************  -->
 	
@@ -240,14 +243,21 @@
                                 <h3>البيانات الشخصية</h3>
                             </div>
                         </div>
+                        <div class="">
+                        </div>
                         <div class="card-body">
+                          <!--  كلمة المرور-->
+                          <div class="input-group form-group">
+                            <p style="color:white">(*) تعني جميع الحقول مطلوب تعبئتها</p>
+
+                          </div>
                             <!--  الاسم رباعي-->
                             <div class="row">
                                 <div class="col">
                                     <div class="input-group form-group">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="fas fa-user"></i>
-												<font style="color:#f4fc02;font-size:20px">*</font></span>
+												<font style="color:black;font-size:20px">*</font></span>
                                         </div>
                                         <input type="text" class="form-control" placeholder="الاسم الأول" name="name"
                                                value="">
@@ -257,7 +267,7 @@
                                     <div class="input-group form-group">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="fas fa-user"></i>
-												<font style="color:#f4fc02;font-size:20px">*</font></span>
+												<font style="color:black;font-size:20px">*</font></span>
                                         </div>
                                         <input type="text" class="form-control" placeholder="اسم الأب "
                                                value=""
@@ -270,7 +280,7 @@
                                     <div class="input-group form-group">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="fas fa-user"></i>
-												<font style="color:#f4fc02;font-size:20px">*</font></span>
+												<font style="color:black;font-size:20px">*</font></span>
                                         </div>
                                         <input type="text" class="form-control" placeholder="اسم الجد"
                                                value="" name="grand_father_name">
@@ -280,7 +290,7 @@
                                     <div class="input-group form-group">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="fas fa-user"></i>
-												<font style="color:#f4fc02;font-size:20px">*</font></span>
+												<font style="color:black;font-size:20px">*</font></span>
                                         </div>
                                         <input type="text" class="form-control" placeholder="العائلة"
                                                value=""
@@ -292,7 +302,7 @@
                             <div class="input-group form-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fas fa-envelope"></i>
-												<font style="color:#f4fc02;font-size:20px">*</font></span>
+												<font style="color:black;font-size:20px">*</font></span>
                                 </div>
                                 <input type="email" class="form-control" value=""
                                        name="email" required placeholder="الايميل">
@@ -301,7 +311,7 @@
                             <div class="input-group form-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fas fa-user"></i>
-												<font style="color:#f4fc02;font-size:20px">*</font></span>
+												<font style="color:black;font-size:20px">*</font></span>
                                 </div>
                                 <input type="text" class="form-control" value=""
                                        name="user_name"
@@ -311,7 +321,7 @@
                             <div class="input-group form-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fas fa-key"></i>
-												<font style="color:#f4fc02;font-size:20px">*</font></span>
+												<font style="color:black;font-size:20px">*</font></span>
                                 </div>
                                 <input type="password" class="form-control" value=""
                                        name="password" required
@@ -321,7 +331,7 @@
                             <div class="input-group form-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fas fa-key"></i>
-												<font style="color:#f4fc02;font-size:20px">*</font></span>
+												<font style="color:black;font-size:20px">*</font></span>
                                 </div>
                                 <input type="password" class="form-control" value=""
                                        name="password_confirmation" required
@@ -331,7 +341,7 @@
                             <div class="input-group form-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fas fa-sort-numeric-up"></i>
-												<font style="color:#f4fc02;font-size:20px">*</font></span>
+												<font style="color:black;font-size:20px">*</font></span>
                                 </div>
                                 <input type="number" value="{{old("ido")}}"
                                        name="ido" required
@@ -359,7 +369,7 @@
                             <div class="input-group form-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><span style="font-size:14px">الجنس</span>
-												<font style="color:#f4fc02;font-size:20px">*</font></span>
+												<font style="color:black;font-size:20px">*</font></span>
                                 </div>
                                 <input type="radio" name="gender" value="M" required
                                        data-title="Male" class="form-control">
@@ -372,7 +382,7 @@
                             <div class="input-group form-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fas fa-table"></i>
-												<font style="color:#f4fc02;font-size:20px">*</font></span>
+												<font style="color:black;font-size:20px">*</font></span>
                                 </div>
                                 <input id="datepicker" width="276" name="brth_day"
                                        value="" required placeholder="تاريخ الميلاد"/>
@@ -382,7 +392,7 @@
                             <div class="input-group form-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fas fa-city"></i>
-												<font style="color:#f4fc02;font-size:20px">*</font></span>
+												<font style="color:black;font-size:20px">*</font></span>
                                 </div>
                                 <select name="governorate_id" id="governorate_id" class="form-control"
                                         placeholder="المحافظة">
@@ -393,7 +403,7 @@
                             <div class="input-group form-group" id="city_id">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fas fa-city"></i>
-												<font style="color:#f4fc02;font-size:20px">*</font></span>
+												<font style="color:black;font-size:20px">*</font></span>
                                 </div>
                                 <select id="city_list" name="city_id"
                                         class="form-control" required>
@@ -404,7 +414,7 @@
                             <div class="input-group form-group">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fas fa-map-marker-alt"></i>
-												<font style="color:#f4fc02;font-size:20px">*</font></span>
+												<font style="color:black;font-size:20px">*</font></span>
                                 </div>
                                 <input type="text" class="form-control" name="neighborhood"
                                        value="" required placeholder="العنوان">

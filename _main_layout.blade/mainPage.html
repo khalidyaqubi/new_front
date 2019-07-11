@@ -1,14 +1,16 @@
 ﻿<!--********************************starte main layout header******************************** -->
 
-<!DOCTYPE html>
-
+<!doctype html>
 <html class="no-js" lang="ar" dir="rtl">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="shortcut icon" href="../dist/Group.ico" />
-    <title>ًمركز العمل التنموي معا</title>
+    <link rel="shortcut icon" href="/Group.ico" />
+    <title>مركز العمل التنموي معا</title>
+    <link rel="stylesheet" href="../dist/platform/css/animate.css">
+
     <link rel="stylesheet" href="../dist/platform/dist/styles/developer.css">
     <link rel="stylesheet" href="../dist/platform/dist/styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -77,11 +79,13 @@
         .login {
             height: 400px;
         }
+
         @media (max-width: 670px) {
 
             .validation {
                 width: 280px;
             }
+
         }
 				@media (max-width: 670px){
 .visionSection {
@@ -94,6 +98,9 @@
 }
 }
 
+
+
+}
     </style>
 	<!--******************************************* يرجى وضع المحتوى البرافيت بين الكوممنتين، وتبيزه عن المحتوى اللي اوت هيدر وفتر موحد ***************************  -->
 	
@@ -154,7 +161,7 @@
                         <li><a class="scroll"  href="/category">جميع الأقسام</a></li>
 
                             <li class=""><a
-                                        style="max-width: 107px;max-height: 75px;overflow: hidden;margin-right: 5px;border:1px solid #c4233d;background:#f3f3f2;padding:15px;margin-top:12px;margin-left:5px;border-radius:20px;color:black"
+                                        style="margin-right: 5px;border:1px solid #c4233d;background:#f3f3f2;padding:15px;margin-top:12px;margin-left:5px;border-radius:20px;color:black"
                                         class="" href="/home">بروفايل  رامي</a></li>
                     </ul>
                 </div>
@@ -166,7 +173,7 @@
     <!--********************************end main layout header******************************** -->
 
     <!---------------->
-    <section class="homeBanner" id="main">
+    <section class="homeBanner" id="zmainz">
         <div class="bannerParallaxWrapper wrapper">
 
             <div class="container">
@@ -189,7 +196,6 @@
                         <form class="login" method="POST" action="/login">
                             <br>
 
-                            <!-------------------ستيلات الفلاديشن موحدة في كل الصفحات valdtion style union on all page----------------->
                             <div id="myModal"   class="alert alert-danger alert-dismissible validation">
                                 <ul>
                                     <li>يرجى ادخال الايميل</li>
@@ -198,7 +204,6 @@
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <!-------------------ستيلات الفلاديشن موحدة في كل الصفحات valdtion style union on all page----------------->
                             <h2 style="padding-top:10px">تسجيل دخول</h2>
 
                             <div class="row" style="margin-bottom:-20px">
@@ -241,7 +246,7 @@
             </ul>
         </div>
         <div class="banerWrapXS"></div>
-        <div class="videoWrap hidden-xs" style="background-image:url('../dist/platform/images/img1.jpg')">
+        <div class="videoWrap hidden-xs  " style="background-image:url('../dist/platform/images/img1.jpg')">
             <div id="container">
 
             </div>
@@ -257,7 +262,7 @@
                 <div class="aboutSection">
                     <div class="clearfix flex-row">
                         <div class="col-sm-5 aboutLeft">
-                            <img class="aboutVideo" src="../dist/platform/images/img1.jpg" alt="">
+                            <img class="aboutVideo  wow bounceIn" src="../dist/platform/images/img1.jpg" alt="">
 
                         </div>
                         <div class="col-sm-7 aboutRight">
@@ -275,11 +280,13 @@
         </div>
     </section>
     <!---------------->
-    <section class="homeSection sectionVision" style="padding-top: 0px" id="vision">
+    <section class="homeSection sectionVision" style="padding-top: 0px" id="vision1">
         <div class="bgLight">
             <div class="container">
                 <div class="visionSection">
-                    <img src="../dist/platform/images/102.JPG"  class="col-md-6 col-sm-12">
+
+                    <img class= " wow bounceIn col-md-6 col-sm-12"src="../dist/platform/images/img1.jpg" >
+
 					<div class="vissionText">
                         <div class="quoteObjHold">
                             <div class="quoteBlock">
@@ -499,7 +506,7 @@
                         <!-- Aug 13-->
                         <div class="slide">
                                 <div class="totalItem">
-                                    <a href="/article/1"><div class="picHold" style="background-image:url('../dist/platform/images/img1.jpg')">
+                                    <a href="/article/1"><div class="picHold" style="background-image:url('../dist/platform/images/img3.jpg')">
                                         <div class="dateHold">
                                             <div class="dateBlock">
                                                 <div class="total" data-year="2019">
@@ -547,13 +554,15 @@
 
             <div class="container">
                 <div class="sectionTitleWrap text-center">
-                    <h2>تجارب ملهمة</h2>
+                    <h2 class="wow bou">تجارب ملهمة</h2>
                 </div>
 
                 <div class="gap" style="margin-top:-100px">
                     <div class="container">
-                        <div class="row ">
+
+                        <div class="row wow bounceIn">
                             <div class="col-md-4 col-sm-6 fromleft">
+
                                 <div class="volunteer-banner">
                                     <div class="banner-meta">
                                         <img src="../dist/platform/dist/images/voulenteer-icon.png" alt=""
@@ -595,7 +604,7 @@
     <!--********************************starte main layout footer******************************** -->
 
     <section class="homeSection bgDarkBlue sectionContact" id="contact">
-        <div id="map"  style="background-image:url('../dist/platform/images/map2.png');   margin-top: 55px;border-top:1px solid black;">
+        <div id="map"  style="background-image:url('/images/map2.png');   margin-top: 55px;border-top:1px solid black;">
         </div>
 
         <div class="bgDark"></div>
@@ -613,8 +622,8 @@
                             <div class="col-md-1">
                                 <p><strong style="color:white"><i class="fas fa-envelope"></i></strong></p>
                             </div>
-                            <div class="col-md-6">
-                                <p><strong style="color:white">Email : aa@aa.com</strong></p>
+                            <div class="col-md-6" >
+                                <p class="wow bounceIn"><strong style="color:white" >Email : aa@aa.com</strong></p>
                             </div>
 
                         </div>
@@ -624,7 +633,7 @@
                                 <p><strong style="color:white"><i class="fas fa-map-marker-alt"></i></strong></p>
                             </div>
                             <div class="col-md-11">
-                                <p><strong style="color:white">غزة/الرمال/رفح</strong></p>
+                                <p class="wow bounceIn"><strong style="color:white" class="wow bounceIn">غزة/الرمال/رفح</strong></p>
                             </div>
                         </div>
                         <br>
@@ -633,7 +642,7 @@
                                 <p><strong style="color:white"><i class="fas fa-phone"></i></strong></p>
                             </div>
                             <div class="col-md-11">
-                                <p><strong style="color:white">0599636064-0599636064
+                                <p class="wow bounceIn"><strong style="color:white" class="wow bounceIn">0599636064-0599636064
                                     </strong></p>
                             </div>
                         </div>
@@ -643,10 +652,9 @@
                             <div id="responseMessage"></div>
                             <form class="" method="post" action="/message" id="maincontact" name="maincontact">
                                 <div class="row">
-                                    <!-------------------ستيلات الفلاديشن موحدة في كل الصفحات valdtion style union on all page----------------->
                                     <div    class="alert alert-danger alert-dismissible validation">
                                         <ul>
-                                            <li>يرجى ادخال الايميل</li>
+                                            <li >يرجى ادخال الايميل</li>
                                         </ul>
                                         <button type="button" data-target="#myModal" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
@@ -665,32 +673,31 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <!-------------------ستيلات الفلاديشن موحدة في كل الصفحات valdtion style union on all page----------------->
                                 </div>
                                 <div class="row">
                                     <div class="input-field col s12">
                                         <input id="name" name="name" type="text" value="" class="validate">
-                                        <label for="name">الاسم <font style="color:red;font-size:20px">*</font></label>
+                                        <label for="name" class="wow bounceIn">الاسم <font style="color:red;font-size:20px">*</font></label>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="input-field col s12">
                                         <input  name="email" type="email" value="" class="validate">
-                                        <label for="email">البريد الالكتروني <font style="color:red;font-size:20px">*</font></label>
+                                        <label for="email" class="wow bounceIn">البريد الالكتروني <font style="color:red;font-size:20px">*</font></label>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="input-field col s12">
                                         <input id="phone_number" name="mopile"  value="" maxlength="14" type="number"
                                                class="validate">
-                                        <label >رقم الهاتف</label>
+                                        <label class="wow bounceIn">رقم الهاتف</label>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="input-field col s12">
                                         <input id="comment" name="content" maxlength="500" value="" type="text"
                                                class="validate">
-                                        <label >تعليقك <font style="color:red;font-size:20px">*</font></label>
+                                        <label class="wow bounceIn">تعليقك <font style="color:red;font-size:20px">*</font></label>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -1168,8 +1175,9 @@
     }
 </style>
 
+<script src="../dist/platform/js/wow.min.js"></script>
+ <script> new WOW().init(); </script>
 </body>
 
 </html>
 <!--********************************end main layout footer******************************** -->
-
