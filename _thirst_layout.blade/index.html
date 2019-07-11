@@ -207,6 +207,10 @@
             height: 50px;
         }
     </style>
+	<!--******************************************* يرجى وضع المحتوى البرافيت بين الكوممنتين، وتبيزه عن المحتوى اللي اوت هيدر وفتر موحد ***************************  -->
+	
+	<!------------------------------------------يرجى وضع المحتوى البرافيت بين الكوممنتين، وتبيزه عن المحتوى اللي اوت هيدر وفتر موحد---------->
+   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
     <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css"/>
@@ -328,7 +332,7 @@
                     <div class="row ">
 
                             <div class="our-cause remove-ext-50 loader-data" id="itemContainer">
-                                <div class="col-sm-4">
+                                <div class="col-md-4 col-sm-6">
                                         <div class="caro-unit fadein">
                                             <div class="cause-avatar">
                                                 <a href="/initiative/1" title=""><img src="../dist/platform/images/img1.jpg"
@@ -342,7 +346,7 @@
                                                 <h2 style="height:72px;min-height:72px;max-height: 72px;"><a
                                                             href="/initiative/1"
                                                             title="">مبادرة نوعية</a></h2>
-                                                <p style="min-height: 72px">
+                                                <p style="min-height: 72px;max-height: 72px">
                                                     مبادرة نوعية مبادرة نوعية مبادرة نوعية مبادرة نوعية مبادرة نوعية مبادرة نوعية مبادرة نوعية مبادرة نوعية....
                                                 </p>
                                                 <a href="/initiative/1" title="" class="donate-me"
@@ -356,9 +360,9 @@
                     <!-- pagination div -->
                     <div class="row  " style="margin-top:50px;">
                         <div class="col-sm-5"></div>
-                        <div class="col-sm-4">
+                        <div class="col-md-4 col-sm-6">
                         </div>
-                        <div class="col-sm-4"></div>
+                        <div class="col-md-4 col-sm-6"></div>
                     </div>
                 </div>
                 <!--******************************************* starte thirst layout footer ***************************  -->
@@ -420,65 +424,9 @@
 <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
 
 <script>
-    $(document).ready(function () {
-
-        var governorate_id = $("[name='governorate_id']").val();
-
-        $.get("/admin/governorate/ajaxCityInGover/" + governorate_id, function (data, status) {
-            $("[name='city_id']")
-                .find('option')
-                .remove()
-                .end()
-                .append('<option class="cities" value="">جميع المدن</option>');
-
-            data.forEach(function (car) {
-                var iselected = checktruefalse(car.id);
-                $("[name='city_id']")
-                    .append($("<option class='cities'></option>")
-                        .attr("value", car.id)
-                        .text(car.name));
-
-                $('.cities[value=' + car.id + ']')
-                    .attr('selected', iselected);
-
-            });
-        });
-    });
-
-    $("[name='governorate_id']").change(function () {
-        var governorate_id = $("[name='governorate_id']").val();
-        $.get("/admin/governorate/ajaxCityInGover/" + governorate_id, function (data, status) {
-            $("[name='city_id']")
-                .find('option')
-                .remove()
-                .end()
-                .append('<option class="cities" value="">جميع المدن</option>');
-
-            data.forEach(function (car) {
-                var iselected = checktruefalse(car.id);
-                $("[name='city_id']")
-                    .append($("<option class='cities'></option>")
-                        .attr("value", car.id)
-                        .text(car.name));
-                $('.cities[value=' + car.id + ']')
-                    .attr('selected', iselected);
-
-            });
-
-        });
-    });
-
-    function checktruefalse(id) {
-        if (id == '{{$city_id}}') {
-            return true
-        } else
-            return false
-    }
-
-</script>
-<script>
     document.querySelector('.chosen-choices').classList.add('form-control');
-    document.querySelector('.chosen-choices').style.height = "45px";
+     document.querySelector('.chosen-choices').style.height = "45px";
+		document.querySelector('.chosen-choices').style.overflow = "auto";
     document.querySelector('.chosen-drop').style.zIndex = "555555555";
     for (i = 0; i < document.querySelectorAll('.gj-datepicker-bootstrap [role=right-icon] button').length; i++) {
         document.querySelectorAll('.gj-datepicker-bootstrap [role=right-icon] button')[i].style.width = "54px";

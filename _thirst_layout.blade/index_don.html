@@ -320,7 +320,7 @@
     <div class="container">
         <div class="row " style="min-height: 190px">
             <div class="our-cause remove-ext-50 loader-data" id="itemContainer">
-                <div class="col-sm-4">
+                <div class="col-md-4 col-sm-6">
                         <div class="caro-unit fadein">
                             <div class="cause-avatar">
                                 <a href="/initiative/1" title=""><img src="../dist/platform/images/img1.jpg" alt=""></a>
@@ -335,7 +335,7 @@
                                 </div>
                                 <span>34 % (15$ /150$)</span>
                                 <h2 style="height:72px;min-height:72px;max-height: 72px;"><a href="/initiative/1" title="" style="margin-right:20px;">مبادرة بحاجة لتبرع</a></h2>
-                                <p style="min-height: 72px"> مبادرة بحاجة لتبرع مبادرة بحاجة لتبرع مبادرة بحاجة لتبرع....
+                                <p style="min-height: 72px;max-height: 72px"> مبادرة بحاجة لتبرع مبادرة بحاجة لتبرع مبادرة بحاجة لتبرع....
                                 </p>
                                 <a href="/donationList/create?initiative_id=1" title="" class="donate-me" data-ripple="">تبرع</a>
                             </div>
@@ -346,10 +346,10 @@
         <!-- pagination div -->
         <div class="row  " style="margin-top:50px;">
             <div class="col-sm-5"></div>
-            <div class="col-sm-4">
+            <div class="col-md-4 col-sm-6">
 
             </div>
-            <div class="col-sm-4"></div>
+            <div class="col-md-4 col-sm-6"></div>
         </div>
     </div>
 
@@ -415,7 +415,8 @@
 
 <script>
     document.querySelector('.chosen-choices').classList.add('form-control');
-    document.querySelector('.chosen-choices').style.height = "45px";
+     document.querySelector('.chosen-choices').style.height = "45px";
+	 document.querySelector('.chosen-choices').style.overflow = "auto";
     document.querySelector('.chosen-drop').style.zIndex = "555555555";
     for (i = 0; i < document.querySelectorAll('.gj-datepicker-bootstrap [role=right-icon] button').length; i++) {
         document.querySelectorAll('.gj-datepicker-bootstrap [role=right-icon] button')[i].style.width = "54px";
